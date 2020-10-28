@@ -247,3 +247,5 @@ wifi.aware.interface=wifi-aware0
 # Reduce Log Level
 persist.vendor.console.silent.config=1
 
+# Zygote
+zygote.critical_window.minute=10
