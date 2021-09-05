@@ -220,7 +220,7 @@ on post-fs-data
 
     setprop vold.post_fs_data_done 1
 
-on property:sys.boot_completed=1
+    on property:sys.boot_completed=1
     # Enable UFS clock scaling back
     write /sys/bus/platform/devices/1d84000.ufshc/clkscale_enable 1
     # Enable UFS auto_hibern8 back
@@ -234,6 +234,10 @@ on property:sys.boot_completed=1
 
     # Reinit lmkd to reconfigure lmkd properties
     setprop lmkd.reinit 1
+
+    # Restrict permissions to socket file 
+    # to hide Magisk & co.
+    chmod 440 /proc/net/unix
 
 service vendor.qrtr-ns /vendor/bin/qrtr-ns -f
     class core
