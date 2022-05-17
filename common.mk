@@ -104,6 +104,10 @@ PRODUCT_PACKAGES += \
     checkpoint_gc \
     otapreopt_script
 
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages    
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
