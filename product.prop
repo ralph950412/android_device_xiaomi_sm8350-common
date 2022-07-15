@@ -1,8 +1,7 @@
 persist.sys.fw.bg_apps_limit=48
 persist.sys.fw.use_trim_settings=true
 persist.sys.fw.trim_enable_memory=4294967296
-persist.sys.fw.bservice_age=300000
-persist.sys.fw.bservice_limit=15
+persist.sys.fw.bservice_limit=8
 persist.sys.fw.bservice_enable=true
 ro.lmk.kill_heaviest_task=true
 vendor.iop.enable_uxe=1
