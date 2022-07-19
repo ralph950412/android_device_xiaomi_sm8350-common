@@ -1,4 +1,4 @@
-persist.sys.fw.bg_apps_limit=96
+persist.sys.fw.bg_apps_limit=60
 persist.sys.fw.use_trim_settings=true
 persist.sys.fw.trim_enable_memory=4294967296
 persist.sys.fw.bservice_age=300000
