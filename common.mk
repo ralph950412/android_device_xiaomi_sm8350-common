@@ -33,10 +33,6 @@ PRODUCT_PACKAGES += \
 # API
 PRODUCT_SHIPPING_API_LEVEL := 30
 
-# NotchBarKiller
-PRODUCT_PACKAGES += \
-    NotchBarKiller    
-
 # Audio
 PRODUCT_PACKAGES += \
     libqcompostprocbundle \
