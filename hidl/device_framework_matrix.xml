@@ -13,6 +13,15 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <!-- Lineage Trust -->
+    <hal format="hidl" optional="true">
+        <name>vendor.lineage.trust</name>
+        <version>1.0</version>
+        <interface>
+            <name>IUsbRestrict</name>
+            <instance>default</instance>
+        </interface>
+    </hal>    
     <!-- Display -->
     <hal format="hidl" optional="true">
         <name>vendor.lineage.livedisplay</name>
