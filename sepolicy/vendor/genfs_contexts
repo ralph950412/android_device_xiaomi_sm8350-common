@@ -1,5 +1,7 @@
 # Battery
 genfscon sysfs /class/qcom-battery u:object_r:vendor_sysfs_battery_supply:s0
+genfscon sysfs /devices/platform/soc/soc:google,battery/power_supply/battery/charge_deadline u:object_r:sysfs_charge:s0
+genfscon sysfs /devices/platform/soc/soc:google,battery/power_supply/battery/charge_stage u:object_r:sysfs_charge:s0
 
 # Display
 genfscon sysfs /devices/platform/soc/soc:qcom,dsi-display-primary u:object_r:vendor_sysfs_graphics:s0

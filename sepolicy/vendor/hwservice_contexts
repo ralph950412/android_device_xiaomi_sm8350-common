@@ -20,3 +20,6 @@ vendor.xiaomi.hardware.mlipay::IMlipayService                                 u:
 
 # Radio
 vendor.qti.hardware.radio.ims::IImsRadio                                      u:object_r:hal_telephony_hwservice:s0
+
+# Turbo adapter
+vendor.google.google_battery::IGoogleBattery                                  u:object_r:hal_googlebattery_hwservice:s0
