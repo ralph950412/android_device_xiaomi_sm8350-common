@@ -43,3 +43,6 @@ persist.sys.appcompact.compact_throttle_persistent=600000
 persist.sys.appcompact.rss_throttle_kb=12000
 persist.sys.appcompact.delta_rss_throttle_kb=8000
 persist.sys.perf.topAppRenderThreadBoost.enable=false
+
+# Service reschedule
+persist.sys.am.reschedule_service=true
