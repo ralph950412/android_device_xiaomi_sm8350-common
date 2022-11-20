@@ -375,7 +375,7 @@ vendor/firmware/a660_zap.elf
 vendor/firmware/a660_zap.mdt
 
 # IFAA Service
--vendor/app/IFAAService/IFAAService.apk
+-vendor/app/IFAAService/IFAAService.apk:vendor/app/IFAAServiceXiaomism8350/IFAAServiceXiaomism8350.apk
 
 # HotwordEnrollment - from V13.0.13.0.SKAMIXM
 -product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|b3c17357a9a6aaf796e9181742ba4865bcfcb517
